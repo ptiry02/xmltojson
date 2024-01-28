@@ -1,0 +1,12 @@
+# Dependency directory
+node_modules
+
+# Enviroment variables
+.env
+
+# Misc
+.DS_Store
+
+# Temporary files
+temp/*
+!temp/readme.txt
