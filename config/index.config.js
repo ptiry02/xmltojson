@@ -1,7 +1,7 @@
 import express from 'express'
 import cors from 'cors'
 
-const origin = 'http://localhost:9000'
+const origin = process.env.ORIGIN || 'http://localhost:9000'
 
 export default app => {
 	app.set('trust proxy', 1)
