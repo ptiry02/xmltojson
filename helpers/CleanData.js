@@ -4,7 +4,6 @@ export default obj => {
 
 	if (Object.keys(obj).length === 1) {
 		data = obj[`${Object.keys(obj)[0]}`]
-		console.log('IF statment test')
 	}
 
 	for (const elm in data) {
