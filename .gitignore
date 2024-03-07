@@ -6,6 +6,8 @@ node_modules
 
 # Misc
 .DS_Store
+yarn.lock
+package-lock.json
 
 # Temporary files
 temp/*
