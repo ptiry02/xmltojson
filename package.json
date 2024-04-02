@@ -5,7 +5,7 @@
 	"type": "module",
 	"main": "server.js",
 	"engines": {
-		"node": "18.x"
+		"node": "20.x"
 	},
 	"scripts": {
 		"dev": "nodemon server.js",
@@ -32,7 +32,7 @@
 		"eslint": "^8.37.0",
 		"eslint-config-prettier": "^8.8.0",
 		"eslint-plugin-prettier": "^4.2.1",
-		"nodemon": "^2.0.22",
+		"nodemon": "^3.1.0",
 		"prettier": "^2.8.7"
 	}
 }
